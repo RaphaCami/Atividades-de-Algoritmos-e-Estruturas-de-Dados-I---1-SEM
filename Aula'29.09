@@ -1,0 +1,383 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMNSy0KgRmYtVivwXBoS2uz",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/RaphaCami/Atividades-de-Algoritmos-e-Estruturas-de-Dados-I---1-SEM/blob/main/Aula'29.09\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "rXxTM8PSTr2G"
+      },
+      "outputs": [],
+      "source": [
+        "x = 5\n",
+        "y = 3"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "adicao = x + y\n",
+        "subtracao = x - y\n",
+        "mult = x * y\n",
+        "divisao = x / y\n",
+        "resto = x % y\n",
+        "potenciacao = x ** y"
+      ],
+      "metadata": {
+        "id": "Pm4OVmLoUknV"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(adicao)\n",
+        "print(subtracao)\n",
+        "print(mult)\n",
+        "print(divisao)\n",
+        "print(x // y)\n",
+        "print(resto)\n",
+        "print(potenciacao)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "VhpnK2m-U0H3",
+        "outputId": "67fae9ac-c82d-43ca-d78b-f785e749a177"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "8\n",
+            "2\n",
+            "15\n",
+            "1.6666666666666667\n",
+            "1\n",
+            "2\n",
+            "125\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(type(adicao))\n",
+        "print(type(subtracao))\n",
+        "print(type(mult))\n",
+        "print(type(divisao))\n",
+        "print(type(x // y))\n",
+        "print(type(resto))\n",
+        "print(type(potenciacao))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "CwQtfiLYWCTb",
+        "outputId": "779ce1e5-b2cc-45b4-da13-06aa8a7ae6b8"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "<class 'int'>\n",
+            "<class 'int'>\n",
+            "<class 'int'>\n",
+            "<class 'float'>\n",
+            "<class 'int'>\n",
+            "<class 'int'>\n",
+            "<class 'int'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "5 ** 3"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Er-3zvKrYXyo",
+        "outputId": "2205c013-905a-4baf-8701-72863be972e6"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "125"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 11
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "5**3"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "UHNhvqLwYbtb",
+        "outputId": "db4cbecd-e850-4265-fb28-541758fe1c4b"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "125"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 12
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x ** y"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "AzGf0FX0Yhb5",
+        "outputId": "bb0e3c24-bef9-48ab-d58b-15f380663351"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "125"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 13
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x**y"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "EsNBTVENYlZ7",
+        "outputId": "fef82dd2-304f-41f2-da0c-026688ca573e"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "125"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 14
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "z = (x + y) ** 2 / x * 3\n",
+        "print(z)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "wTmkMgN9Z-vP",
+        "outputId": "3881a863-9950-4edd-909c-da4a207d32ce"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "38.400000000000006\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "z = (((x + y) **2 ))"
+      ],
+      "metadata": {
+        "id": "sjcKSgn2YlXE"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "from ast import NodeVisitor\n",
+        "vendas = float(input('Total: R$'))\n",
+        "anos_empresa = int(input('Anos: '))\n",
+        "salario_base = 2000.00\n",
+        "comissao = vendas * 0.0\n",
+        "\n",
+        "if (vendas > 10000) and (anos_empresa >= 1):\n",
+        "    bonus = 500.00\n",
+        "\n",
+        "else:\n",
+        "    bonus = 0.00\n",
+        "\n",
+        "novo_salario = salario_base + comissao + bonus\n",
+        "\n",
+        "print(f'O salario inicial é R$ {salario_base:9.2f}')\n",
+        "print(f'O comissao é R$ {comissao:9.2f}')\n",
+        "print(f'O bonus é R$ {bonus:9.2f}')\n",
+        "print(f'O novo salario é R$ {novo_salario:9.2f}')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "xuuygK6KrlZN",
+        "outputId": "7aa33499-4543-4a9e-8ca3-f1616936d2c6"
+      },
+      "execution_count": 28,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Total: R$800000\n",
+            "Anos: 9\n",
+            "O salario inicial é R$   2000.00\n",
+            "O comissao é R$      0.00\n",
+            "O bonus é R$    500.00\n",
+            "O novo salario é R$   2500.00\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "estado = input(\"Qual é o estado onde o produto foi produzido? \").upper() # Converte a entrada para maiúsculas\n",
+        "valor_produto = float(input(\"Qual o valor do produto? \"))\n",
+        "\n",
+        "# A linha abaixo foi comentada pois é um erro de sintaxe e parece uma condição incompleta.\n",
+        "# pedido minimo () == \"RJ\" and valor_produto > 5000.00\n",
+        "\n",
+        "tax_rate = 0.0 # Inicializa a taxa de imposto\n",
+        "\n",
+        "if estado == \"MG\":\n",
+        "    tax_rate = 0.05\n",
+        "elif estado == \"SP\":\n",
+        "    tax_rate = 0.05\n",
+        "elif estado == \"RJ\":\n",
+        "    tax_rate = 0.15\n",
+        "elif estado == \"MS\": # Condição corrigida para estar na mesma linha que 'elif'\n",
+        "    tax_rate = 0.05\n",
+        "\n",
+        "imposto_valor = valor_produto * tax_rate # Calcula o valor do imposto\n",
+        "total = valor_produto + imposto_valor # Calcula o valor total\n",
+        "\n",
+        "# Corrigindo a sintaxe do f-string e garantindo que o literal esteja fechado\n",
+        "print(f\"Valor do imposto: R$ {imposto_valor:9.2f}\")\n",
+        "print(f\"Valor total: R$ {total:9.2f}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "z4JLlj9JtV8w",
+        "outputId": "ab1aa7d4-cab7-4b40-ed2e-295e9d1baedb"
+      },
+      "execution_count": 44,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Qual é o estado onde o produto foi produzido? MS\n",
+            "Qual o valor do produto? 6000\n",
+            "Valor do imposto: R$    300.00\n",
+            "Valor total: R$   6300.00\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "estado = input('Estado: ').upper()\n",
+        "preco = float(input('Preço: '))\n",
+        "\n",
+        "if estado == 'MG':\n",
+        "    imposto = 0.07\n",
+        "elif estado == 'SP':\n",
+        "    imposto = 0.12\n",
+        "elif estado == 'RJ':\n",
+        "    imposto = 0.15\n",
+        "elif estado == 'MS':\n",
+        "    imposto = 0.0\n",
+        "elif estado == 'AM':\n",
+        "    imposto = 0.0"
+      ],
+      "metadata": {
+        "id": "bG_5RqemxwE9"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
